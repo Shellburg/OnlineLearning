@@ -1,0 +1,41 @@
+<!-- <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "http://java.sun.com/dtd/web-jsptaglibrary_1.2.xsd"> -->
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<tlib-version>2.5</tlib-version>
+	<jsp-version>2.5</jsp-version>
+	<short-name>jarTag</short-name>
+	<uri>http://gx.edu/dTags</uri>
+	<description>
+		dTags
+	</description>
+	
+	<tag-file>
+		<name>updatePanel</name>
+		<path>/WEB-INF/tags/ui_control/updatePanel.tag</path>
+	</tag-file>
+	
+	<tag-file>
+		<name>pagination</name>
+		<path>/WEB-INF/tags/ui_control/pagination.tag</path>
+	</tag-file>
+	
+	<tag>
+		<!-- 定义引用tag的名称 -->
+		<name>sexMessage</name>
+		<!-- 自定义tag的类 -->
+		<tag-class>cn.st.tag.SexMessage</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>      
+            <!-- 标签名 -->      
+            <name>sex</name>      
+            <!-- 是否为可选属性 -->      
+            <required>true</required>      
+            <!-- 是否接受JSP表达示计算结果 -->      
+            <rtexprvalue>true</rtexprvalue>      
+        </attribute>      
+	</tag>
+</taglib>

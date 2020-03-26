@@ -1,0 +1,82 @@
+  body{
+   margin:0px;
+   padding:0px;
+   /* background-image: url(../../resources/image/love.jpg);
+   background-image:url(${ctx}/resources/image/cloud.png);
+   background-repeat: no-repeat;
+   background-size:100% 100%; */
+   }
+   /*整个外边框的布局*/
+   /* #box{
+   width:500px;
+   height:500px;
+   border:1px;
+   margin-left:50px;
+   background-image:url(${ctx}/resources/image/cloud.png);
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+   } */
+   /*整个外边框的布局*/
+
+   /*登录界面的布局*/
+   #loginbox{
+   width:500px;
+   height:500px;
+   border-radius:20px;
+   box-shadow:1px 1px 1px 1px;
+   margin:0 auto;
+   margin-top:120px;
+   }
+  #loginbox #login{
+   width:450px;
+   height:500px;
+   border-radius:20px;
+   box-shadow:1px 1px 1px 1px;
+   }
+    #loginbox #login .input_text{
+   margin-left:20px;
+   margin-top:15px;
+   width:200px;
+   height:30px;
+   border:1px solid gray;
+
+   }
+    a{
+	    margin-left:20px;
+	    text-decoration:none;
+	 }
+    a:hover{
+    text-decoration:underline;
+    }
+    #loginbox #login #register{
+   margin-left:20px;
+   margin-top:20px;
+   width:60px;
+   height:20px;
+   font-family:"楷体";
+   font-size:25px;
+   width:bold;
+   }
+    #loginbox #login #btn_login{
+   border:0px;
+   border-radius:15px;
+   margin-left:65px;
+   margin-top:20px;
+   width:300px;
+   height:48px;
+   font-family:"楷体";
+   font-size:25px;
+   width:bold;
+   background:#FF8C00;
+   outline:none;
+   inline:none;
+   }
+   #loginbox #login #btn_login:hover{
+   background:#FFD700;
+   }
+   /*登录界面的布局*/
+   
+   
+   
+   
+   
